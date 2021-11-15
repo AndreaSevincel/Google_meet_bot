@@ -15,8 +15,8 @@ from datetime import datetime
 # MAIL & PASSWORD (THE MAIL U WILL USE TO ENTER TO THE MEET)
 driver = webdriver.Chrome(
     r'C:\Users\user\OneDrive\Masaüstü\bot project\chromedriver.exe')
-usernameStr = 'asevincel@liceoitaliano.net'
-passwordStr = 'Liceo012'
+usernameStr = 'yourr mail'
+passwordStr = 'your_password'
 url_meet = 'https://meet.google.com/lookup/d7eskmr7pd'
 options = webdriver.ChromeOptions()
 options.add_argument("--disable-infobars")
